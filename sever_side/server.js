@@ -382,8 +382,8 @@ app.post('/payment', (req, res) => {
 });
 
 //select orders 
- app.post('/update-order', (req, res) => {
-     const { name, email, phone_number, address } = req.body;
+// app.post('/update-order', (req, res) => {
+   //  const { name, email, phone_number, address } = req.body;
 
 //     // Check if all required fields are provided
 //     if (!name || !email || !phone_number || !address) {
